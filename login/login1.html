@@ -41,39 +41,40 @@
         <img src="../assets/logo.png" alt="Nagad Logo" class="w-24 pb-2" />
         <img src="../assets/name.png" alt="Nagad Logo" class="w-24 pb-2" />
 
-        <p class="text-[#969696] text-[13px] font-medium mt-4">Mobile number</p>
-        <p class="text-black text-md font-bold mt-1">01315486822</p>
+        <p class="text-black text-md font-semibold mt-1">Welcome</p>
       </div>
 
       <!-- Input Field -->
       <div class="mt-8">
+        <label id="labelOfinput" for="" class="ml-7 text-[#EC1C24] font-medium text-[13px] hidden">Mobile number</label>
         <label class="flex items-center space-x-2 text-gray-600">
-          <img src="../assets/padlock (1) 1.png" alt="" />
+          <img src="../assets/telephone 1.png" alt="" />
           <input
-            id="pinInput"
-            type="password"
-            placeholder="PIN"
-            class="text-black font-extrabold w-full border-b-2 border-[#EC1C24] p-2 outline-none"
+            id="numberInput"
+            type="text"
+            placeholder="Mobile Number"
+            class="text-[#969696] w-full border-b-2 border-[#EC1C24] p-2 outline-none"
           />
         </label>
-        <label id="LabelOfPin" for="" class="ml-7 text-[#969696] font-medium text-[11px]">Enter 4-digit PIN</label>
       </div>
 
       <!-- Next Button -->
       <div class="mt-8 flex justify-center">
         <button
-          class="w-[240px] h-[40px] bg-[#EC1C24] text-white py-2 rounded-full font-semibold"
+          id="btn-next" class="w-[240px] h-[40px] bg-[#EC1C24] text-white py-2 rounded-full font-semibold"
         >
-          LOGIN
+          NEXT
         </button>
       </div>
 
       <!-- Register -->
       <div class="text-center mt-4">
         <p class="text-[#969696] text-[13px] font-medium">
-            Forgot PIN?
+          Not registered yet?
         </p>
-        
+        <a href="#" class="text-[#EC1C24] font-semibold text-[16px]"
+          >Register Now</a
+        >
       </div>
 
       <!-- Footer -->
@@ -94,6 +95,6 @@
         </div>
       </div>
     </div>
-    <script src=""></script>
+    <script src="../scripts/login.js"></script>
   </body>
 </html>
