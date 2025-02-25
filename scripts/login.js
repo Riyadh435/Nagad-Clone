@@ -19,7 +19,7 @@ document.getElementById('btn-next').addEventListener('click', function () {
 
     if (inputField !== "") {
         // Redirect to another file (change 'nextpage.html' to your actual file)
-        window.location.href = "../login/login1.html";
+        window.location.href = "/login/login1.html";
     } else {
         alert("Please fill in the input field before proceeding.");
     }
