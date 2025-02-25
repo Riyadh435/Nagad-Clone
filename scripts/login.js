@@ -24,3 +24,6 @@ document.getElementById('btn-next').addEventListener('click', function () {
         alert("Please fill in the input field before proceeding.");
     }
 });
+
+
+// Check pin and go to main page
